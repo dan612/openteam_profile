@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Football Positions'
+vid: football_positions
+description: 'Position listing for football'
+hierarchy: 0
+weight: 0

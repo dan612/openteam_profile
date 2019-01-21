@@ -1,0 +1,30 @@
+name: OpenTEAM
+type: profile
+description: 'A Drupal distribution based on Lightning.'
+# core: 8.x
+# version: '8.x-1.x'
+distribution:
+  name: OpenTEAM
+'base profile': lightning
+dependencies:
+  - diff
+  - admin_toolbar
+  - admin_toolbar_tools
+  - entity_browser_entity_form
+  - features
+  - features_ui
+  - page_manager_ui
+  - lightning_core
+  - lightning_layout
+  - lightning_media
+  - pathauto
+  - link_attributes
+themes:
+  - bartik
+  - seven
+  - bootstrap
+  - openteam_theme
+
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'openteam'

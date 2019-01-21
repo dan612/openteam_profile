@@ -1,0 +1,54 @@
+//** ---- Custom Setup----** //
+
+// - Colors
+$dk_blue: #022F40;
+$lt_blue: #0090C1;
+$bl_gr: #38AECC;
+$bl_gray: #839196;
+
+//- Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Muli:300,400,600,700');
+
+$primary-ff: 'Muli', sans-serif;
+$heading-ff: 'Bungee Inline', cursive;
+
+//- Mixins
+
+@mixin font-size($size) {
+  font-size: $size * 10 + px;
+  font-size: $size + rem;
+};
+
+@mixin rem($property, $size) {
+  $property: $size * 10 + px;
+  $property: $size + rem;
+}
+
+//** ---- Import Header ----** //
+
+@import 'partials/header';
+
+//** ---- Import Main Content ----** //
+
+@import 'partials/main-content';
+
+//** ---- Global Styles ----** //
+
+html {
+  background: white;
+  max-width: 100vw;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: $primary-ff;
+}
+
+h1, h2, h3 {
+  font-family: $heading-ff;
+}

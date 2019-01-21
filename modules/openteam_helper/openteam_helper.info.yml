@@ -1,0 +1,8 @@
+name: Openteam distro helper
+description: Helper module to set up OpenTEAM distribution
+package: Custom
+type: module
+version: 1.0
+core: 8.x
+dependencies:
+- node

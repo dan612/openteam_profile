@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall hooks for the OpenTEAM install profile.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function openteam_helper_install() {
+  // Add code here perform additional site information tasks, generate sample
+  // content, etc.
+
+  $config = \Drupal::configFactory();
+
+  // // Set the homepage.
+  // $config->getEditable('system.site')->set('page.front', '/node/1')->save();
+  // // Set the 404 page.
+  // $config->getEditable('system.site')->set('page.404', '/404')->save();
+
+  // Enable openteam theme.
+  $config
+    ->getEditable('system.theme')
+    ->set('default', 'openteam_theme')
+    ->save();
+
+}

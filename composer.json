@@ -1,0 +1,22 @@
+{
+    "name": "dan612/openteam",
+    "description": "Openteam Distribution",
+    "type": "drupal-profile-custom",
+    "authors": [
+        {
+            "name": "Dan Chadwick",
+            "email": "daniel.chadwick612@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer/installers": "~1.2",
+        "drupal-composer/drupal-scaffold": "^2.0.0",
+        "oomphinc/composer-installers-extender": "^1.1"
+    },
+    "extra": {
+      "installer-paths": {
+        "docroot/profiles/custom/{$name}": ["type:drupal-profile-custom"]
+      }
+    }
+}

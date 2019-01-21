@@ -1,0 +1,23 @@
+# core: 8.x
+# version: '8.x-1.x'
+type: theme
+'base theme': bootstrap
+name: OpenTEAM
+description: 'Theme built for the OpenTEAM installation profile.'
+package: OpenTEAM
+regions:
+  header_bar: 'Header Bar'
+  navigation: Navigation
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  sidebar_first: Primary
+  sidebar_second: Secondary
+  footer: Footer
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+libraries:
+  - openteam_theme/global
+  - openteam_theme/bootstrap-scripts
