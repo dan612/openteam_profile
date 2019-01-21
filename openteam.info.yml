@@ -17,7 +17,6 @@ dependencies:
 themes:
   - bartik
   - seven
-  - bootstrap
   - openteam_theme
 
 version: '8.x-1.x-dev'
