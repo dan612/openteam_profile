@@ -1,5 +1,0 @@
-openteam.admin:
-  title: 'Openteam Settings Page'
-  description: 'Settings page for the openteam helper'
-  parent: system.admin_config_development
-  route_name: openteam.config

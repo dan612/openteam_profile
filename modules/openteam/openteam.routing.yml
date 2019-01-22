@@ -1,7 +1,0 @@
-openteam.config:
-  path: '/admin/openteam'
-  defaults:
-    _form: '\Drupal\openteam\Form\OpenteamForm'
-    _title: 'Openteam Config'
-  requirements:
-    _permission: 'access content'

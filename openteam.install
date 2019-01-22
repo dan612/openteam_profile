@@ -8,7 +8,7 @@
 /**
  * Implements hook_install().
  */
-function openteam_helper_install() {
+function openteam_install() {
   // Add code here perform additional site information tasks, generate sample
   // content, etc.
 
@@ -20,6 +20,7 @@ function openteam_helper_install() {
   // $config->getEditable('system.site')->set('page.404', '/404')->save();
 
   // Enable openteam theme.
+
   $config
     ->getEditable('system.theme')
     ->set('default', 'openteam_theme')
